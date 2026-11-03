@@ -1,0 +1,6 @@
+
+Algorithm : SHA256
+Hash      : DF62B0BB375A1A6B1BB110AB682641DC5166222E859E50DDF1F47E5BEF1AFCD3
+Path      : C:\FPGA\HX4S20\campus_hdmi_v5_reliable\release\campus_hdmi_v5_reliable_trial.bit
+
+

@@ -1,0 +1,1 @@
+PASS actual normalized WAV: fragmented FAT32 chain, deleted entry ignored, 1441960+1024 stereo samples checked across loop; capacity stalls; 6123 concurrent image sectors.

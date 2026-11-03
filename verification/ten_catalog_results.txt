@@ -1,0 +1,2 @@
+PASS ten FAT32 BMP directory entries, handles 0..9, tenth image exact 307200 pixels
+tb_ten_catalog.sv:150: $finish called at 27419210000 (1ps)

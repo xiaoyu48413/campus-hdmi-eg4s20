@@ -1,0 +1,2 @@
+PASS AUTO expiry retained through busy reader, next image starts on ready
+tb_auto.sv:48: $finish called at 51150000 (1ps)

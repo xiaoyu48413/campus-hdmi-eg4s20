@@ -1,0 +1,20 @@
+PASS brightness 1024 values, debounce, frame commit
+PASS audio zero, full scales, decimation, frozen bank, square wave
+PASS 640x480, one SOF, 480 EOL, aligned two-stage pipeline; preview.ppm
+tb_campus.sv:88: $finish called at 3922520000 (1ps)
+PASS immediate first image, frame-only swap, subsequent 32+32 fade, delayed old-buffer release
+tb_swap.sv:31: $finish called at 16070000 (1ps)
+PASS SD completion both event orders, initial ready, busy key rejection, buffer ownership
+tb_sd_mailbox.sv:43: $finish called at 1010000 (1ps)
+PASS actual VGA timing: frame-tick blanking, eight-clock index settling, read handshake
+tb_timing.sv:23: $finish called at 12672416000 (1ps)
+PASS stale BMP bytes/deleted/LFN/hidden/directory/non-BMP entries ignored; fragmented 320x240 expanded exactly
+PASS fragmented root directory, invalid BMP skipped, fragmented 640x480 exact 307200 pixels
+PASS FAT32 superfloppy and active FAT #1 with FAT #0 poisoned
+PASS deleted-only root: no image and no stale-sector fallback
+PASS unrecognized volume fails closed (no raw fallback)
+PASS premature FAT end-of-chain rejected
+PASS bad-cluster marker rejected
+PASS FAT32 in second MBR primary partition
+PASS overflowing FAT32 geometry rejected
+tb_fat32_v3.sv:205: $finish called at 73714235000 (1ps)

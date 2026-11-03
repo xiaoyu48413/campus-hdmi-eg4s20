@@ -1,0 +1,2 @@
+PASS PCM FIFO wrapping, cross-clock mailbox, 48 kHz cadence and exact HDMI samples
+tb_pcm_bridge.sv:30: $finish called at 45916861000 (1ps)

@@ -1,0 +1,15 @@
+# Tang Dynasty generated runs. Keep the source project configuration below.
+/src/td_project/log/
+/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/*
+!/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/
+/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/*
+!/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/settings.cfg
+!/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0.prj
+
+# Simulators and local caches.
+*.vvp
+__pycache__/
+*.pyc
+
+# Large reproducible logs; release reports and the bitstream remain included.
+/release/build_extension.log
